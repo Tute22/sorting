@@ -19,7 +19,7 @@ function merge(arr1, arr2) {
 }
 
 function mergeSort(array) {
-  if(array.length === 1){
+  if(array.length <= 1){
     return array
   }
   var [firstHalf, secondHalf] = split(array)
