@@ -6,7 +6,7 @@ function split(wholeArray) {
   return [firstHalft, secondHalf];
 }
 
-function merge(arr1, arr2) {
+function merge(arr1, arr2) { 
   var arrOrdenado = []
   while(arr1.length && arr2.length){
     if(arr1[0] < arr2[0]){
